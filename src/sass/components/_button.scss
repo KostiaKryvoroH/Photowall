@@ -1,0 +1,85 @@
+.button__container {
+    display: flex;
+    justify-content: center; 
+    
+    
+
+
+    .btn {
+        flex-basis: 48%;
+        color: red;
+        font-size: 1.5rem;
+        border: 2px solid $color-grey--light;
+        line-height: 2;
+        padding: 5px;
+        background-color: $color-white;
+    }
+}
+
+
+
+.add__icon,
+.add__icon:link,
+.add__icon:visited {
+    margin: 2rem auto;
+    display: table;
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    transition: all .2s;
+    font-size: 1.6rem;       
+    border: none;
+    cursor: pointer;
+    background-color: rgb(226, 225, 225);
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+
+    &:hover {
+        transform: translate(-3px);
+        box-shadow: 0 1rem 2rem rgba(black, .2);
+    }
+}
+
+.speech-bubble {
+    background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/51904-200.png") center no-repeat;
+    background-size: contain;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    position: relative;
+}
+.comment-count {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black
+}
+
+
+.submit_button,
+.submit_button:link,
+.submit_button:visited {
+    margin: 2rem auto;
+    display: table;
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    transition: all .2s;
+    font-size: 1.6rem;       
+    border: none;
+    cursor: pointer;
+    background-color: rgb(226, 225, 225);   
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+
+    &:hover {
+        transform: translate(-3px);
+        box-shadow: 0 1rem 2rem rgba(black, .2);  
+    }
+}
+
+ 

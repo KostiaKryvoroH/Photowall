@@ -1,0 +1,26 @@
+.photogrid__figure {
+    flex-basis: calc(33.333% - 3rem);
+    border: 1px solid $color-grey--medium;
+    padding: 2rem;
+    flex-grow: 1;
+    margin: 0 2rem 2rem 2rem;
+
+
+    &--photo {
+        width: calc(100% + 4rem);
+        // height: 85%;
+        margin: -2rem 0 0 -2rem;
+        max-width: none;
+    }
+
+    .single-photo {
+        flex-basis: calc(33.333% - 4rem);
+        flex-grow: 1;
+        flex-shrink: 0;
+        margin: 0 2rem 2rem 2rem;
+        padding: 2rem;
+        border: 1px solid #d3d3d3;
+        background: #fff;
+        position: relative;
+    }
+}
